@@ -14,7 +14,6 @@ import org.slf4j.LoggerFactory;
 @ServerEndpoint(value = "/chat-server")
 public class ChatServerEndpoint {
     // ロガーの設定
-
     private final static org.slf4j.Logger logger
             = LoggerFactory.getLogger(ChatServerEndpoint.class);
 
